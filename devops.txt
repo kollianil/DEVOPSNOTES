@@ -90,8 +90,17 @@ To push file into central repo
 # git push origin master
 
 
+Git Interview questions  :
 
+to commit and merge : when there are many devlopers to maintaning history 
 
+squash and merge : 
+
+rebase and merge : 
+
+a question asked by one of us as a devops engineer why we should learn git and our responsibilities with that 
+as a devop eng we have to understand how to git works
+if anything wrong with devlopers for managing git do we have to explain them how pull req works how to create a branch and to give us the profile 
 
 
 Docker :
@@ -107,11 +116,42 @@ Docker is a containerisation tool which can create containers kill containers bu
 
 Docker properties :
 provides fast delivery of the applications
-has high density and runs mopre workloads
+has high density and runs more workloads
 aids in quick deployement for easy managemnet
 
 
 Test to check git changes
+
+docker run - to create a container
+docker ps - to check the running process state
+docker ps -a it will list all the containers 
+exit - stop the container
+ctrlp+ctrlq - it will be out from the container 
+docker inspect  - to check the ip adrees of the container, process etc 
+
+
+Jenkins : (Manish )
+
+Continous Integration : Build with every change 
+
+Jenkins : (aws)
+pwd :
+7c50c81501074d3d97e2b2a304d983ac 
+
+Admins account :
+anilkolli
+wtg123
+mail :anilkmr1989@gmail.com
+
+
+jenkins url :
+http://ec2-54-190-59-34.us-west-2.compute.amazonaws.com:8080/
+
+Note :
+while adding Jenkins GPG to authorized key so that Jenkins can be installed,
+use New Command (which was mentioned in doc )to avoid errors 
+sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key 
+
 
 
 
