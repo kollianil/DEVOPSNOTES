@@ -153,5 +153,5 @@ use New Command (which was mentioned in doc )to avoid errors
 sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key 
 
 
-
+date june 23 git bash
 
